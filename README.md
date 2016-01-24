@@ -11,3 +11,7 @@
     * kb_article_versions
     * kb_articles
     * kb_categories
+
+## 3.2-kbuml
+
+* add [PlantUML](http://ja.plantuml.com/), [simonswine/wiki_external_filter](https://github.com/simonswine/wiki_external_filter) plugin.

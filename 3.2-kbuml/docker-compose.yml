@@ -1,5 +1,5 @@
 redmine3:
-  image: tukiyo3/redmine:3.2-kb
+  image: tukiyo3/redmine:3.2-kbuml
   volumes:
     - ./sqlite:/usr/src/redmine/sqlite
     - ./files:/usr/src/redmine/files
