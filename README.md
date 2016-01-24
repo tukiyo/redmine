@@ -9,3 +9,7 @@
     * kb_article_versions
     * kb_articles
     * kb_categories
+
+## 3.2-kb-git
+
+* add [Github Hook](https://www.redmine.org/plugins/redmine_github_hook) plugin.
