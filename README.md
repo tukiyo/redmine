@@ -1,6 +1,8 @@
 ## 3.2
 
 * copy from [docker-library/redmine](https://github.com/docker-library/redmine/tree/master/3.2). no modded.
+* change redmine uid (auto => 998).
+    * Gitlab's git uid is 998.
 
 ## 3.2-kb
 
@@ -9,7 +11,3 @@
     * kb_article_versions
     * kb_articles
     * kb_categories
-
-## 3.2-kb-git
-
-* add [Github Hook](https://www.redmine.org/plugins/redmine_github_hook) plugin.
