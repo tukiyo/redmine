@@ -1,7 +1,7 @@
 FROM ruby:2.2-slim
 
-# add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
-RUN groupadd -r redmine && useradd -r -g redmine redmine
+# equal to Gitlab's git uid (998).
+RUN groupadd -r redmine && useradd -r -u 998 -g redmine redmine
 
 # grab gosu for easy step-down from root
 RUN gpg --keyserver ha.pool.sks-keyservers.net --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4
