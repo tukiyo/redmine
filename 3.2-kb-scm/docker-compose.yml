@@ -1,7 +1,8 @@
 redmine3:
-  image: tukiyo3/redmine:3.2-kb-git
+  image: tukiyo3/redmine:3.2-kb-scm
   volumes:
     - ./sqlite:/usr/src/redmine/sqlite
     - ./files:/usr/src/redmine/files
+    - ./opt:/opt
   ports:
     - 3000:3000
